@@ -74,6 +74,7 @@
                 selfWeak.title = @"没有网络";
                 //从缓存加载数据
                 [selfWeak getNoInnetData];
+                NSLog(@"%@", @"没有网络的时候要实时的监控");
                 break;
             }
             case LSPNetworkstatusReachableWWAN:{
